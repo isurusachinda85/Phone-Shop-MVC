@@ -127,7 +127,7 @@ public class CustomerManageController {
         textFeildClear(actionEvent);
 
     }
-
+    //Load all customer
     public void loadData() {
         ObservableList <CustomerTM> customerList = FXCollections.observableArrayList();
         ArrayList<Customer>list = new ArrayList<>();
@@ -287,6 +287,7 @@ public class CustomerManageController {
 
     }
 
+    //Update customer
     public void updateOnAction(ActionEvent actionEvent) {
         String id = txtcCusId.getText();
         String name = txtCusName.getText();
