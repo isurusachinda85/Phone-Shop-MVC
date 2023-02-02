@@ -103,7 +103,7 @@ public class CustomerManageController {
         loadNextCustomerId();
         setPattern();
     }
-
+    //save customer
     public void customerSaveOnAction(ActionEvent actionEvent){
         String id = txtcCusId.getText();
         String name = txtCusName.getText();
